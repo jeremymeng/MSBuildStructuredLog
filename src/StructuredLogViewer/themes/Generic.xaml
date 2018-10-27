@@ -684,7 +684,7 @@
                    TextWrapping="Wrap"
                    MinWidth="300">
             <TextBox.InputBindings>
-              <KeyBinding Key="Enter" 
+              <KeyBinding Gesture="Enter" 
                           Command="{Binding BuildCommand}" />
             </TextBox.InputBindings>
           </TextBox>
